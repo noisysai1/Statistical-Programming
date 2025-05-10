@@ -1,0 +1,21 @@
+# Assignment 3 – Nearest Neighbor Classification
+
+**Course:** DATA-51100 Statistical Programming  
+**Student:** Sai Kumar Murarishetti  
+
+## 📌 Objective
+
+This assignment implements a basic Nearest Neighbor classifier in Python using NumPy. 
+The script compares test data points against training data to classify them based on the nearest neighbor and calculates classification accuracy.
+
+## 📂 Files Included
+
+- `NearestNeighbor.py` – Python script implementing Nearest Neighbor algorithm.
+- `iris-testing-data.csv` – Dataset used for testing.
+- `Assignment 3 Outputs.pdf` – Output screenshots/results submitted for grading.
+- `iris-training-data.csv` – Required for script execution (must be added manually).
+
+## ⚙️ How to Run
+
+1. Ensure both `iris-training-data.csv` and `iris-testing-data.csv` are in the same folder.
+2. Run the script : python NearestNeighbor.py
