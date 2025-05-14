@@ -1,44 +1,56 @@
-# Statistical-Programming
-Statistical Programming
+# 📊 Statistical Programming
+
+Course Overview – DATA-51100
+Course Title: Statistical Programming
+Course Code: DATA-51100
 
 
-# 📊 Statistical Programming – Assignment 1
+📝 Course Description
+DATA-51100: Statistical Programming provides a foundational and practical understanding of programming concepts tailored for statistical data analysis and visualization.
 
-**Course:** DATA 51100
-**Student:** Sai Kumar Murarishetti  
-**Lewis ID:** L30079224  
+Students gain hands-on experience working with large-scale datasets by utilizing widely-used data analysis tools and developing custom scripts using an object-oriented programming language (e.g., Python).
 
----
+The course blends theory and practice by focusing on:
 
-## 📝 Assignment Overview
+Programming Structures & Algorithms for data manipulation
 
-This is the first programming assignment for the Statistical Programming course. The objective of this assignment is to implement a Python program that calculates the **mean** and **variance** of a sequence of numbers using an **online algorithm** (incremental approach), without storing the entire dataset.
+Data Processing & Transformation techniques
 
-The user is prompted to enter a number `n`, and the program calculates the mean and variance for all integers from 1 to `n` using a numerically stable method. The loop continues until the user enters a negative number.
+Visual Analytics & Plotting for statistical insights
 
----
+Hands-on Coding to analyze real-world datasets
 
-## 🔢 Key Concepts
+🧰 Key Topics Covered
+Object-Oriented Programming fundamentals
 
-- **Mean (Average)**: Sum of numbers divided by the count.
-- **Variance**: Measures the spread of the numbers from the mean.
-- **Online Algorithm**: Allows updating statistics incrementally as new data comes in, efficient for large data or streams.
+Working with CSV and structured datasets using Pandas
 
----
+Data cleaning and preprocessing strategies
 
-## 🧮 How the Program Works
+Descriptive statistics and distributions
 
-1. Prompts the user for an integer input.
-2. For values ≥ 0:
-   - Uses a `while` loop to iteratively compute:
-     - Mean: updated at each step using `xn = xn + (i - xn)/i`
-     - Variance: updated using a formula derived from Welford’s method.
-3. Stops when a negative number is entered.
-4. Displays the final computed **mean** and **variance** for each valid input.
+Creating visualizations (Pie charts, Histograms, Scatter plots, Bar charts) using Matplotlib
 
----
+Implementing custom algorithms for statistical analysis
 
-## 🚀 How to Run
+Kernel density estimation (KDE)
 
-Make sure you have Python installed (version 3.x). Run the script in your terminal or any Python environment:
-python OnlineStats.py
+Logarithmic data scaling and axis formatting
+
+💡 Learning Outcomes
+By the end of the course, students are able to:
+
+✅ Read, process, and visualize complex datasets
+✅ Write structured, reusable Python code for statistical analysis
+✅ Translate real-world problems into programmable solutions
+✅ Utilize plotting libraries to build insightful visual reports
+✅ Apply foundational statistical programming skills in data science contexts
+
+🛠 Tools & Technologies
+
+Python 3.x
+Pandas
+NumPy
+Matplotlib
+
+
